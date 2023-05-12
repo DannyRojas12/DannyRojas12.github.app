@@ -69,7 +69,7 @@ public function get_color(){
 		}
 
 public function INSERTAR($llaves=array(),$fk_cliente) {
-  $bd=new PDO('mysql:host = 127.0.0.1;dbname=taller_mecanico', "root", "");
+  $bd=new PDO('mysql:host =5f8ff224-612d-49cb-8d9d-114387a942ac;dbname=taller_mecanico', "root", "");
   
 $fk_interno=$llaves[0];
 $fk_externo=$llaves[1];
